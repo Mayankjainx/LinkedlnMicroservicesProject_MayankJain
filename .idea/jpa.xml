@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="renamerInitialized" value="true" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="Discovery-service" name="Default">
+        <packages>
+          <package value="com.Project.LinkedIn.Discovery_service" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="Post-Service" name="Default">
+        <packages>
+          <package value="com.Project.LinkedIn.Service" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="Api-Gateway" name="Default">
+        <packages>
+          <package value="com.Project.LinkedIn.Api_Gateway" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="Connection-Service" name="Default">
+        <packages>
+          <package value="com.Project.LinkedIn.Connection_Service" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="Notification-Service" name="Default">
+        <packages>
+          <package value="com.Project.LinkedIn.Notification_Service" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit moduleName="User-Service" name="Default">
+        <packages>
+          <package value="com.Project.LinkedIn.User.Service" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
